@@ -1,6 +1,6 @@
 // import React from 'react'
 import logo from '../../public/logo (2).png';
-function Header() {
+function  Header() {
   return (
     <>
       <header aria-label="Site Header" className="bg-white py-2  ">

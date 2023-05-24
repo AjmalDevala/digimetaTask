@@ -3,8 +3,8 @@ import cal from '../../public/bookmark.svg';
 function Section3() {
     return (
         <div className="p-20 bg-[#e2e8f0]">
-            <h1 className="  ml-8 mt-6 text-2xl font-semibold">Related Courses</h1>
-            <div className="flex lg:flex-row flex-col gap-5 p-8 ">
+             <h1 className="  ml-8 mt-6 text-2xl font-semibold">Related Courses</h1>
+             <div className="flex lg:flex-row flex-col gap-5 p-8 ">
                 <div className="max-w-sm w-[300px] rounded overflow-hidden shadow-lg hover:shadow-zinc-400 bg-white">
                     <img className="w-full" src="	https://mycenta-dev.netlify.app/images/course/course-javascript.jpg" alt="Card Image" />
 

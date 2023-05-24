@@ -12,7 +12,7 @@ function Section2() {
 
             <div className="  flex lg:flex-row flex-col  p-4  bg-[#e2e8f0]">
                 <div className=" bg-white  w-full h-[760px] border rounded-lg   lg:-mt-14 lg:ml-24 ">
-                    <nav className="  flex border-b  border-gray-100 text-sm font-medium px-8  text-[#64748b]">
+                    <nav className="  flex border-b  border-gray-100 text-sm font-medium px-8  overflow-hidden text-[#64748b]">
                         <a href="#" className="-mb-px border-b border-current p-4 text-cyan-500">
                             Description
                         </a>
@@ -85,7 +85,7 @@ function Section2() {
 
                 </div>
                 <div className=" lg:mr-24 lg:ml-6 lg:-mt-36  ">
-                    <div className="block rounded-lg p-2 bg-white px-2 pb-7 shadow-sm w-[450px] shadow-indigo-100    ">
+                    <div className="block rounded-lg p-2 bg-white px-2 pb-7 shadow-sm overflow-hidden lg:w-[450px] shadow-indigo-100    ">
                         <img
                             alt="Home"
                             src="https://mycenta-dev.netlify.app/images/course/course-javascript.jpg"
