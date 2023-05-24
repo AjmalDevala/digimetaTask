@@ -33,7 +33,7 @@ function Section2() {
                         </a>
                     </nav>
                     <br />
-                    <div className="px-3 text-[#64748b] bg-white ">
+                    <div className="px-3 text-[#64748b] bg-white overflow-hidden ">
                         <div className=" ">
                             <h2 className="text-XL font-medium sm:text-xl">Course Descriptions</h2>
 
@@ -43,7 +43,7 @@ function Section2() {
                             <p className="mt-4 text-[#64748b]">
                                 Next, you’ll explore the basics of the language, giving plenty of examples. Lastly, you’ll put your JavaScript knowledge to work and modify a modern, responsive web page. When you’re finished with this course, you’ll have the skills and knowledge in JavaScript to create simple programs, create simple web applications, and modify web pages. </p>
                         </div>
-                        <h2 className="text-sm font-medium sm:text-lg mt-4">What you’ll learn</h2>
+                        <h2 className="text-sm font-medium sm:text-lg mt-4"> What you’ll learn</h2>
                         <div className=" grid grid-cols-12 gap-8 md:mt-3 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
                             <ul className="col-span-6 flex items-center  text-sm">
                                 <li className="flex items-center">
