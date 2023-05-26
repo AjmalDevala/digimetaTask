@@ -11,7 +11,7 @@ function Section2() {
         <>
 
             <div className="  flex lg:flex-row flex-col  p-4  bg-[#e2e8f0]">
-                <div className=" bg-white  lg:w-full h-[760px] border rounded-lg   -mt-[71px] lg:ml-24 ">
+                <div className=" bg-white   mb-10 lg:w-full h-[760px] border rounded-lg   -mt-[71px] lg:ml-24 ">
                     <nav className="  flex border-b  border-gray-100 text-sm font-medium px-8    text-[#64748b]">
                         <a href="#" className="-mb-px border-b border-current  py-4 md:p-4 lg:p-4 text-cyan-500">
                             Description
@@ -33,7 +33,7 @@ function Section2() {
                         </a>
                     </nav>
                     <br />
-                    <div className="px-3 text-[#64748b] bg-white overflow-hidden ">
+                    <div className=" px-3  text-[#64748b] bg-white overflow-hidden ">
                         <div className=" ">
                             <h2 className="text-XL font-medium sm:text-xl">Course Descriptions</h2>
 
@@ -43,9 +43,9 @@ function Section2() {
                             <p className="mt-4 text-[#64748b]">
                                 Next, you’ll explore the basics of the language, giving plenty of examples. Lastly, you’ll put your JavaScript knowledge to work and modify a modern, responsive web page. When you’re finished with this course, you’ll have the skills and knowledge in JavaScript to create simple programs, create simple web applications, and modify web pages. </p>
                         </div>
-                        <h2 className="text-sm font-medium sm:text-lg mt-4"> What you’ll learn</h2>
-                        <div className=" grid grid-cols-12 gap-8 md:mt-3 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
-                            <ul className="col-span-6 flex items-center  text-sm">
+                        <h2 className="text-sm font-medium p-4  sm:text-lg lg:mt-4"> What you’ll learn</h2>
+                        <div className=" grid  gap-8 md:mt-3 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+                            <ul className="lg:col-span-6 flex lg:items-center flex-row text-sm">
                                 <li className="flex items-center">
                                     <img src={save} alt="" className="mr-2" />
                                     Recognize the importance of understanding your objectives when addressing an audience.
@@ -55,7 +55,7 @@ function Section2() {
                                     Recognize the importance of understanding your objectives when addressing an audience.
                                 </li>
                             </ul>
-                            <ul className="col-span-6 flex items-center  text-sm">
+                            <ul className="lg:col-span-6 flex lg:items-center  flex-row text-sm">
                                 <li className="flex items-center">
                                     <img src={save} alt="" className="mr-2" />
                                     Recognize the importance of understanding your objectives when addressing an audience.
@@ -65,7 +65,7 @@ function Section2() {
                                     Recognize the importance of understanding your objectives when addressing an audience.
                                 </li>
                             </ul>
-                            <ul className="col-span-6 flex items-center">
+                            <ul className="lg:col-span-6 flex lg:items-center flex-row">
                                 <li className="flex items-center  text-sm">
                                     <img src={save} alt="" className="mr-2" />
                                     Recognize the importance of understanding your objectives when addressing an audience.
@@ -84,7 +84,7 @@ function Section2() {
                     </div>
 
                 </div>
-                <div className=" mt-56   sm:mt-9 md:mt-6 lg:mr-24 lg:ml-6 lg:-mt-36  ">
+                <div className=" mt-72   sm:mt-9 md:mt-6 lg:mr-24 lg:ml-6 lg:-mt-36  ">
                     <div className="block rounded-lg p-2 bg-white px-2 pb-7 shadow-sm overflow-hidden lg:w-[450px] shadow-indigo-100    ">
                         <img
                             alt="Home"
