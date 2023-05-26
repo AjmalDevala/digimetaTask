@@ -38,10 +38,10 @@ function Section2() {
                             <h2 className="text-XL font-medium sm:text-xl">Course Descriptions</h2>
 
                             <p className="mt-4 text-[#64748b] text ">
-                                If you’re learning to program for the first time, or if you’re coming from a different language, this course, JavaScript: Getting Started, will give you the basics for coding in JavaScript. First, you'll discover the types of applications that can be built with JavaScript, and the platforms they’ll run on.
+                                If you’re learning to program for the first time, or if you’re coming from a different language, this course, JavaScript: Getting Started, will give you the basics for coding in JavaScript. First, you`ll discover the types of applications that can be built with JavaScript, and the platforms they’ll run on.
                             </p>
                             <p className="mt-4 text-[#64748b]">
-                                Next, you’ll explore the basics of the language, giving plenty of examples. Lastly, you’ll put your JavaScript knowledge to work and modify a modern, responsive web page. When you’re finished with this course, you’ll have the skills and knowledge in JavaScript to create simple programs, create simple web applications, and modify web pages. </p>
+                                Next, you`ll explore the basics of the language, giving plenty of examples. Lastly, you’ll put your JavaScript knowledge to work and modify a modern, responsive web page. When you’re finished with this course, you’ll have the skills and knowledge in JavaScript to create simple programs, create simple web applications, and modify web pages. </p>
                         </div>
                         <h2 className="text-sm font-medium p-4  sm:text-lg lg:mt-4"> What you’ll learn</h2>
                         <div className=" grid  gap-8 md:mt-3 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
