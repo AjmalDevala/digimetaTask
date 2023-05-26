@@ -11,7 +11,7 @@ function Section2() {
         <>
 
             <div className="  flex lg:flex-row flex-col  p-4  bg-[#e2e8f0]">
-                <div className=" bg-white  w-full h-[760px] border rounded-lg   lg:-mt-14 lg:ml-24 ">
+                <div className=" bg-white  w-full h-[760px] border rounded-lg   -mt-[71px] lg:ml-24 ">
                     <nav className="  flex border-b  border-gray-100 text-sm font-medium px-8  overflow-hidden text-[#64748b]">
                         <a href="#" className="-mb-px border-b border-current p-4 text-cyan-500">
                             Description
@@ -84,7 +84,7 @@ function Section2() {
                     </div>
 
                 </div>
-                <div className=" lg:mr-24 lg:ml-6 lg:-mt-36  ">
+                <div className=" mt-56   sm:mt-9 md:mt-6 lg:mr-24 lg:ml-6 lg:-mt-36  ">
                     <div className="block rounded-lg p-2 bg-white px-2 pb-7 shadow-sm overflow-hidden lg:w-[450px] shadow-indigo-100    ">
                         <img
                             alt="Home"
@@ -102,11 +102,11 @@ function Section2() {
                                 </div>
                             </dl>
                         </div>
-                        <button className=' mt-2 hover:bg-sky-700  rounded-md bg-sky-600/80 px-5 py-2.5 text-sm font-medium text-white shadow flex items-center justify-center lg:w-full mr-11' >
+                        <button className=' lg:mt-2 hover:bg-sky-700  rounded-md bg-sky-600/80 px-5 py-2.5 text-sm font-medium text-white shadow flex items-center justify-center w-full mr-11' >
                             Purchase Now
-                        </button>
+                         </button>
                     </div>
-                    <div className="block rounded-lg  lg:mt-6 p-4 shadow-sm bg-white shadow-indigo-100 relative w-[450px]">
+                    <div className="block mt-5 rounded-lg   lg:mt-6 p-4 shadow-sm bg-white shadow-indigo-100 relative lg:w-[450px] ">
 
                         <h1 className=' text-lg font-bold'>What’s included</h1>
                         <hr />
@@ -137,7 +137,7 @@ function Section2() {
 
                     </div>
 
-                    <div className=" mt-6 p-4  bg-white  dark:text-white dark:bg-gray-700  w-[450px] rounded-md">
+                    <div className=" mt-5 lg:p-4    bg-white  dark:text-white dark:bg-gray-700  lg:w-[450px] rounded-md">
                         <div className="flex items-center">
                             <div className='flex'>
                                 <img
@@ -172,8 +172,8 @@ function Section2() {
                                 <span className="text-gray-500 text-sm">Reviews</span>
                             </div>
                         </div>
-                        <div className="mt-3">
-                            <p className="text-sm text-gray-500">
+                        <div className="mt-3 ">
+                            <p className="text-sm text-gray-500 overflow-hidden">
                                 I am an Innovation designer focussing on UX/UI based in Berlin.
                                 As a creative resident at Figma explored the city of the future
                                 and how new technologies.

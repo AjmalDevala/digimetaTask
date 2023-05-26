@@ -1,12 +1,13 @@
 // import React from 'react'
 import cal from '../../public/bookmark.svg';
+import img from '../../public/data.jpg';
 function Section3() {
     return (
-        <div className="p-20 bg-[#e2e8f0]">
-             <h1 className="  ml-8 mt-6 text-2xl font-semibold">Related Courses</h1>
-             <div className="flex lg:flex-row flex-col gap-5 p-8 ">
-                <div className="max-w-sm w-[300px] rounded overflow-hidden shadow-lg hover:shadow-zinc-400 bg-white">
-                    <img className="w-full" src="	https://mycenta-dev.netlify.app/images/course/course-javascript.jpg" alt="Card Image" />
+        <div className="lg:p-16  bg-[#e2e8f0]">
+            <h1 className="  ml-8  text-3xl font-medium">Related Courses</h1>
+            <div className="flex  lg:flex-row   px-4 flex-col justify-items-center  lg:gap-5 lg:p-8 ">
+                <div className=" lg:w-[300px]  mt-6  justify-center rounded overflow-hidden shadow-lg hover:shadow-zinc-400 bg-white">
+                    <img className="w-full" src={img} alt="Card Image" />
 
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">Card Title</div>
@@ -37,11 +38,11 @@ function Section3() {
                             alt=""
                         />
                         <p className=" ml-2">Jenny Wilson</p>
-                        <img  className='ml-20 text-end' src={cal} alt="" />
+                        <img className='ml-20 text-end' src={cal} alt="" />
                     </div>
                 </div>
-                <div className="max-w-sm w-[300px] rounded overflow-hidden shadow-lg hover:shadow-zinc-400 bg-white">
-                    <img className="w-full" src="	https://mycenta-dev.netlify.app/images/course/course-javascript.jpg" alt="Card Image" />
+                <div className=" lg:w-[300px]  mt-6  justify-center rounded overflow-hidden shadow-lg hover:shadow-zinc-400 bg-white">
+                    <img className="w-full" src={img} alt="Card Image" />
 
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">Card Title</div>
@@ -72,11 +73,11 @@ function Section3() {
                             alt=""
                         />
                         <p className=" ml-2">Jenny Wilson</p>
-                        <img  className='ml-20 text-end' src={cal} alt="" />
+                        <img className='ml-20 text-end' src={cal} alt="" />
                     </div>
                 </div>
-                <div className="max-w-sm w-[300px] rounded overflow-hidden shadow-lg hover:shadow-zinc-400 bg-white">
-                    <img className="w-full" src="	https://mycenta-dev.netlify.app/images/course/course-javascript.jpg" alt="Card Image" />
+                <div className=" lg:w-[300px]  mt-6  justify-center rounded overflow-hidden shadow-lg hover:shadow-zinc-400 bg-white">
+                    <img className="w-full" src={img} alt="Card Image" />
 
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">Card Title</div>
@@ -107,11 +108,11 @@ function Section3() {
                             alt=""
                         />
                         <p className=" ml-2">Jenny Wilson</p>
-                        <img  className='ml-20 text-end' src={cal} alt="" />
+                        <img className='ml-20 text-end' src={cal} alt="" />
                     </div>
                 </div>
-                <div className="max-w-sm w-[300px] rounded overflow-hidden shadow-lg hover:shadow-zinc-400 bg-white">
-                    <img className="w-full" src="	https://mycenta-dev.netlify.app/images/course/course-javascript.jpg" alt="Card Image" />
+                <div className=" lg:w-[300px] mt-6 justify-center rounded overflow-hidden shadow-lg hover:shadow-zinc-400 bg-white">
+                    <img className="w-full" src={img} alt="Card Image" />
 
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">Card Title</div>
@@ -142,9 +143,13 @@ function Section3() {
                             alt=""
                         />
                         <p className=" ml-2">Jenny Wilson</p>
-                        <img  className='ml-20 text-end' src={cal} alt="" />
+                        <img className='ml-20 text-end' src={cal} alt="" />
                     </div>
                 </div>
+
+
+
+
 
             </div>
         </div>
