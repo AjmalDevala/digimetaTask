@@ -11,24 +11,24 @@ function Section2() {
         <>
 
             <div className="  flex lg:flex-row flex-col  p-4  bg-[#e2e8f0]">
-                <div className=" bg-white  w-full h-[760px] border rounded-lg   -mt-[71px] lg:ml-24 ">
-                    <nav className="  flex border-b  border-gray-100 text-sm font-medium px-8  overflow-hidden text-[#64748b]">
-                        <a href="#" className="-mb-px border-b border-current p-4 text-cyan-500">
+                <div className=" bg-white  lg:w-full h-[760px] border rounded-lg   -mt-[71px] lg:ml-24 ">
+                    <nav className="  flex border-b  border-gray-100 text-sm font-medium px-8    text-[#64748b]">
+                        <a href="#" className="-mb-px border-b border-current  py-4 md:p-4 lg:p-4 text-cyan-500">
                             Description
                         </a>
 
-                        <a href="#" className="-mb-px border-b border-transparent p-4 hover:text-cyan-500 hover:border-b">
+                        <a href="#" className="-mb-px border-b border-transparent ml-2 py-4 md:p-4  lg:p-4 hover:text-cyan-500 hover:border-b">
                             Contents
                         </a>
 
-                        <a href="#" className="-mb-px border-b border-transparent p-4 hover:text-cyan-500">
+                        <a href="#" className="-mb-px border-b border-transparent ml-2 py-4  md:p-4  lg:p-4 hover:text-cyan-500">
                             Reviews
                         </a>
 
-                        <a href="#" className="-mb-px border-b border-transparent p-4 hover:text-cyan-500">
+                        <a href="#" className="-mb-px border-b border-transparent ml-2 py-4 md:p-4  lg:p-4 hover:text-cyan-500">
                             Transcript
                         </a>
-                        <a href="#" className="-mb-px border-b border-transparent p-4 hover:text-cyan-500">
+                        <a href="#" className="-mb-px border-b border-transparent ml-2 py-4 md:p-4  lg:p-4 hover:text-cyan-500">
                             FAQ
                         </a>
                     </nav>
